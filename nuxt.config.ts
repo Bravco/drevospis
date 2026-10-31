@@ -12,8 +12,8 @@ export default defineNuxtConfig({
       title: "Drevo Spiš",
       meta: [
         { name: "title", content: "Drevo Spiš" },
-        { name: "description", content: "" },
-        { name: "keywords", content: "drevo, drevo Spišská Nová Ves, drevo spiš, palivove drevo" }
+        { name: "description", content: "Kvalitné, suché palivové drevo zo Spiša za výhodné ceny. Ponúkame výhrevné drevo na paletách s možnosťou dovozu v Spišskej Novej Vsi a okolí. Objednajte ešte dnes!" },
+        { name: "keywords", content: "palivové drevo, drevo Spiš, palivové drevo Spišská Nová Ves, suché drevo, drevo na paletách, predaj dreva, dovoz dreva, Drevo Spiš" }
       ]
     }
   }

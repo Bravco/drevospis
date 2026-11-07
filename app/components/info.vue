@@ -2,7 +2,7 @@
     <UPageSection
         id="info"
         title="Informácie"
-        description="Okolité lesy nám poskytujú kvalitnú surovinu, ktorú spracúvame šetrne a zodpovedne. Naše drevo je dôkladne vysušené, preto horí čisto, dlho a s vysokou výhrevnosťou. Menej dymí, šetrí váš komín aj kachle a vo vašej domácnosti vydrží viac tepla na menej dreva. Je to spoľahlivé, lokálne palivo pre slovenské domácnosti."
+        description="Palivové drevo – Bukové, štiepané. Kvalitné bukové palivové drevo, prirodzene sušené na vzduchu. Vyznačuje sa vysokou výhrevnosťou a dlhým horením."
         icon="i-lucide-box"
         orientation="horizontal"
         :features="features"
@@ -19,8 +19,13 @@
 <script lang="ts" setup>
     const features = ref([
         {
+            title: "Rozmery",
+            description: "Dĺžka polien: 33 cm. Rozmery palety: 1×1×1 m",
+            icon: "i-lucide-box"
+        },
+        {
             title: "Cena",
-            description: "???€ ... 1 paleta (???kg)",
+            description: "80€ ... 1 paleta (800kg)",
             icon: "i-lucide-star"
         },
         {
@@ -34,9 +39,9 @@
             to: "tel:+421948121289"
         },
         {
-            title: "farmahamorsro@gmail.com",
+            title: "briketyspis@gmail.com",
             icon: "i-lucide-mail",
-            to: "mailto:farmahamorsro@gmail.com",
+            to: "mailto:briketyspis@gmail.com",
             description: "V prípade otázok nás neváhajte kontaktovať."
         }
     ]);

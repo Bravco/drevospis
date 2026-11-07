@@ -107,7 +107,7 @@
     const loading = ref<boolean>(false);
 
     const estPrice = computed<number>(() => {
-        return state.quantity ? 100 * state.quantity : 0;
+        return state.quantity ? 80 * state.quantity : 0;
     });
 
     async function onSubmit(event: FormSubmitEvent<Schema>) {

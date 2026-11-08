@@ -126,7 +126,7 @@
                 telefon: event.data.phone,
                 email: event.data.email,
                 datum: (new Date(event.data.date)).toDateString(),
-                mnozstvo: `${event.data.quantity} kg`,
+                mnozstvo: `${event.data.quantity} paleta`,
                 doprava: event.data.delivery ? "Doručenie na adresu" : "Vlastný odber",
                 adresa: event.data.delivery
                     ? `${(event.data as any).city}, ${(event.data as any).address}`
